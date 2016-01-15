@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Home of Lily Wang</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Lily Wang</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Photo Blog</a>
+            </li>
+            <li>
+                <a href="#photo-shoots" onclick = $("#menu-close").click(); >Photo Shoots</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Lily Wang</h1>
+            <h3>Photography</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">About</a>
+            <a href="#portfolio" class="btn btn-dark btn-lg">Photo Blog</a>
+            <a href="#photo-shoots" class="btn btn-dark btn-lg">Photo Shoots</a>
+            <a href="#contact" class="btn btn-dark btn-lg">Contact</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <!-- TODO: make responsive -->
+                    <div class="col-lg-4">
+                      <h2>About Me</h2>
+                      <img class="img-portfolio img-responsive" src="img/lily.jpg">
+                    </div>
+                    <div class="col-lg-8">
+                      <h4 id="about-text">
+                        Hello everyone!
+                        My name is Lily Wang, and I am an aspiring optometrist as well as a Microbiology student at the 
+                        University of Georgia. I got my first DSLR camera in high school and fell in love with 
+                        photography. I bring my camera everywhere I go and take pictures of about anything that 
+                        captures my attention. 
+                        Need a picture? I got you.
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <!--<section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Contact</h2>
+                    <div class="row">
+                        <h4 id="service-text">
+                          If you're interested in having your photos taken,
+                          message me <a data-toggle="modal" data-target="#contact-modal">here!</a>
+                        </h4>
+                        <div id="contact-modal" class="modal fade" role="dialog">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Contact Me</h4>
+                              </div>
+                              <div class="modal-body">
+                                <form role="form" action="mailto:lilywang351@gmail.com">
+                                  <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control" id="name">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="email">Email address:</label>
+                                    <input type="email" class="form-control" id="email">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="msg">Message:</label>
+                                    <textarea class="form-control" id="msg" rows="5"></textarea>
+                                  </div>
+                                  <button type="submit" class="btn btn-default">Submit</button>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <hr>
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Photo Blog</h2>
+                    <hr class="small">
+                    <div class="row">
+                      <div class="grid">
+                        <div class="grid-item">
+                          <img src="img/IMG_4784 (400px).jpeg" alt="About">
+                          <div class="grid-text">I can now cross off going on an Alaskan cruise off my bucket list! Despite
+                          having to deal with cold temperatures in the summer, the trip was worth it. I was able to explore 
+                          Alaskan forests, villages, and even get to see a bear or two. It was an amazing experience, and 
+                          I hope to go again in the future.</div>
+                        </div>
+                        <div class="grid-item">
+                          <img src="img/IMG_5797 (400px).jpeg" alt="About">
+                          <div class="grid-text">This picture was taken on my trip to Hilton Head. I normally wake up after 10
+                          AM when school is not in session, but on this morning, I was dragged out of bed by my mother 
+                          to watch the sun rise. Even though I was groggy and wanted go back to sleep, I’m glad I was 
+                          able to take this picture. And the couple just happened to be conveniently there.</div>
+                        </div>
+                        <div class="grid-item">
+                          <img src="img/IMG_6381 (400px).jpeg" alt="About">
+                          <div class="grid-text">Meet Sharon! She absolutely hates having her pictures taken. Lucky for her, I
+                          was there. The weather was nice and sunny outside, so I decided to have an impromptu photo 
+                          shoot! Even with just a t­shirt and jacket on, she still looked pretty awesome.</div>
+                        </div>
+                        <div class="grid-item">
+                          <img src="img/IMG_6598 (400px).jpeg" alt="About">
+                          <div class="grid-text">He’s clever, warm, loves playing with string, a bit chubby, and absolutely
+                          adorable. Here’s Bobo! He usually spends the day sleeping away either on my bed or on the 
+                          couch, but when he’s not, he likes to explore different places of the house; he can even open 
+                          doors. He also loves to cuddle, and if he doesn’t have your attention, he will jump on you and 
+                          force you to cuddle with him.</div>
+                        </div>
+                        <div class="grid-item">
+                          <img src="img/IMG_6666 (400px).jpeg" alt="About">
+                          <div class="grid-text">This picture was taken in Madison, GA. There’s nothing quite like the feeling of
+                          walking through a small town at night during the holidays. I took this picture at about 8 pm, and 
+                          there were barely any cars on the streets and almost no one walking about. Having lived in the 
+                          Atlanta area for most of my life, I’ve never seen a city so quiet so early.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <hr>
+    <section id="photo-shoots">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Photo Shoots</h2>
+                      <hr class="small">
+                      <div class="row">
+                        Coming soon!
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <hr>
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Lily Wang</strong>
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:lilywang351@gmail.com">lilywang351@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://facebook.com/lililywang" target=_blank><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Lily Wang</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Masonry
+    var $grid = $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: 1
+    });
+
+    $grid.on('click', '.grid-item', function() {
+        $(this).children('.grid-text').slideToggle(50, function() {
+          $grid.masonry('layout');
+        });
+        $grid.masonry('layout');
+    });
+
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.grid-item {
+  padding: 5px;
+}
+
+.grid-text {
+  display: none;
+}
+
+.services a {
+  color: #999;
+}
